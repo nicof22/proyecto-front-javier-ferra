@@ -1,0 +1,322 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+
+}
+body{
+    height: auto;
+}
+
+header{
+    height: 163px;
+    padding-top: 30px;
+}
+.color-head{
+    background-color: #F5EDDC!important;
+}
+nav{
+    height: 100px;;
+}
+#offcanvasRight{
+    background-color: #F5EDDC!important;
+}
+.btn-dark a{
+    display: none;
+}
+h3{
+    font-size: 1.5em;
+}
+.fi-rr-menu-burger{
+    font-size: 20px;
+}
+.c-fluid{
+    height: 421px;
+}
+/* LISTA DE BOTONES OFFCANVAS**/
+.btn-group, .btn-group-vertical {
+    position: relative;
+    left: 103px;
+    height: 183px;
+    top: 70px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn-group-vertical {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    right: 100px;
+    margin-top: 81px;
+}
+.contenedor-section{
+    height: 900px;
+    margin-top: 2px;
+    position: absolute;
+    left: 0px;
+    margin-top: 0px;
+}
+#section-1{
+    height: 804px;
+    position: relative;
+    top: 48px;
+    background-color: #CFD2CF!important;
+    right: 0px;
+}
+.lado-izq{
+    height: 675px;
+    position: absolute;
+    right: 18px;
+    top: 68px;
+    width: 96%;
+}
+.contenedor-img-fondo{
+    height: 562px;
+    margin-top: 122px;
+}
+
+.fondo-izq{
+    background-image: url(imagenes/Proposal.png);
+    background-size: cover;
+}
+.box-1{
+    height: 777px;
+    position: relative;
+    top: 20px;
+    right: 0px;
+}
+.contenedor-contacto{
+    width: 98%;
+    height: 856px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.contenedor-texto{
+    height: 232px;
+}
+.contenedor-formulario{
+    width: 98%;
+    height: 560px;
+    position: relative;
+    left: 0px;
+    top: 17px;
+    border: 1px solid #F5EDDC;
+    border-radius: 5px
+}
+form{
+    margin-top:38px!important;
+}
+.contenedor-item{
+    height: 421px;
+    width: 91%;
+    position: relative;
+    /* padding-right: 166px; */
+    top: -63px;
+    left: 31px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 36px;
+    height: 392px;
+    width: 94%;
+    position: relative;
+    bottom: 10px;
+    right: -20px;
+    padding-right: -11px;
+}
+ul li{
+    background: #ece8dd;
+    /* color: darkblue; */
+    /* width: 94%; */
+    /* margin: 5px; */
+    position: relative;
+    top: -24px;
+    left: 11px;
+      
+}
+.lista{
+    margin-top: 10px;
+    width: 94%;
+    position: relative;
+    bottom: -36px;
+    right: 116px;
+    padding-right: -11px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.posicion-lista{
+    position: relative;
+    top: 57px;
+    right: -13px;
+}
+#section-2{
+    height: 804px;
+    position: relative;
+    top: 48px;
+    object-fit: none;
+    background-image: url(imagenes/escritorio-arreglado.jpg);
+}
+.contenedor-lista-perfil{
+    position: relative;
+    top: 197px;
+    height: 435px;
+}
+.section-2{
+    height: 800px;
+    position: relative;
+    margin-top: 20px;
+}
+.contenedor-img-2{
+    height: 700px;
+}
+.imag-derecho{
+    height: 803px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 103%;
+}
+
+.contenedor-perfil{
+    height: 368px;
+    width: 99%;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+.imagen-perfil{
+    height: 341px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 100%
+}
+.contendero-titulos-derecha {
+    padding-right: 65px;
+    position: relative;
+    bottom: 67%;
+    right: -1%;
+    width: 97%;
+    height: 166px;
+}
+
+.list-group-flush {
+    border-radius: 0;
+    width: 921%;
+    height: 111px;
+    position: relative;
+    bottom: 2%;
+    right: 8%;
+}
+.list-group-item {
+    width: 120%;
+    position: relative;
+    left: 11%;
+    top: 17%;
+}
+.list-group-flush ul li{
+    background: #cce5ff;
+    /* color: darkblue; */
+    /* width: 94%; */
+    /* margin: 5px; */
+    position: relative;
+    top: -24px;
+    left: 11px;
+}
+
+
+#footer{
+    height: 382px;
+    position: absolute;
+    width: 100%;
+    margin-top: 47%;
+    background-color: #EB1D36;
+}
+
+footer, h1{
+    font-size: 20px;
+}
+.contenedor-footer {
+    height: 333px;
+    position: absolute;
+    top: 6%;
+}
+.contenedor-item-footer{
+    height: 294px;
+    margin-top: 20px;
+
+}
+.contenedor-listas-footer{
+    height: 270px;
+    margin-top: 19px;
+    width: 49%;
+    position: relative;
+    left: 149px;
+}
+.list-group{
+    padding-left: 0;
+    position: relative;
+    right: -23px;
+    top: -1px;
+    --bs-list-group-color: none!important; 
+    --bs-list-group-bg: none!important; 
+    --bs-list-group-border-color: none!important; 
+    --bs-list-group-border-width: none!important;
+    --bs-list-group-border-radius: none!important; 
+    --bs-list-group-item-padding-x: 1rem;
+    --bs-list-group-item-padding-y: 0.5rem;
+    --bs-list-group-action-color: none!important; 
+    --bs-list-group-action-hover-color: none!important; 
+    --bs-list-group-action-hover-bg: none!important; 
+    --bs-list-group-action-active-color: var(--bs-body-color);
+    --bs-list-group-action-active-bg: var(--bs-secondary-bg);
+    --bs-list-group-disabled-color: var(--bs-secondary-color);
+    --bs-list-group-disabled-bg: var(--bs-body-bg);
+    --bs-list-group-active-color: #fff;
+    --bs-list-group-active-bg: #0d6efd;
+    --bs-list-group-active-border-color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: var(--bs-list-group-border-radius);
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #000;
+    background-color: #EB1D36!important;
+    border-color:none!important;
+}
+.list-group-item {
+    width: 81%;
+    position: relative;
+    left: 11%;
+    top: 17%;
+}
+.color-letras{
+    color: white;
+}
+.contenedor-item-footer p{
+    margin-top: 267px;
+    margin-bottom: 1rem;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    left: 76px;
+    top: 74px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    left: 103px;
+    height: 61px;
+    top: 70px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.tamaño{
+    font-size: 30px;
+}
